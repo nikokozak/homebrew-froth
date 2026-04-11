@@ -7,18 +7,18 @@ class Froth < Formula
   on_macos do
     on_arm do
       url "https://github.com/nikokozak/froth/releases/download/v#{version}/froth-v0.1.0-darwin-arm64.tar.gz"
-      sha256 "5fe48026ba0988fe75072a2e8488d267807ea0d7b0c03b46b08e2b0685b1b5f8"
+      sha256 "c63d381accc28d26877d2375d33d3a57a07c1c28b8c55bcebbdb3e02c8435ef4"
     end
     on_intel do
       url "https://github.com/nikokozak/froth/releases/download/v#{version}/froth-v0.1.0-darwin-amd64.tar.gz"
-      sha256 "53dcb589bd88f1dc4124dbc2ed8324b158e3fe0a554f7a25929d29d3c8c4e445"
+      sha256 "0bd0d409f7ed1e93b9b7029d26f2973e7e9e37cf27d0860084fd6a66e5ad004a"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/nikokozak/froth/releases/download/v#{version}/froth-v0.1.0-linux-amd64.tar.gz"
-      sha256 "a0121e7b1f87c56423778f71ba163bbbfc473f5eaf14a992978efe2f966c643f"
+      sha256 "193625f5b09f304eb6c35efe955043c641342d91ac66bdfe1d40435a5bd4741b"
     end
   end
 
